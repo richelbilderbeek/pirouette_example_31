@@ -8,7 +8,7 @@ library(testthat)
 library(ggplot2)
 
 # Constants
-example_no <- 28
+example_no <- 31
 rng_seed <- 314
 crown_age <- 10
 n_phylogenies <- 10
