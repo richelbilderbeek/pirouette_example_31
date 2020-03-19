@@ -17,5 +17,6 @@
 module load R
 
 rm -rf example_31
+rm errors.png
 time Rscript example_31.R
 
