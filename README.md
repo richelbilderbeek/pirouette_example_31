@@ -21,7 +21,8 @@ sbatch scripts/rerun.sh
 
 ## Related settings
 
- * [Ten replicates on multiple DD trees](https://github.com/richelbilderbeek/pirouette_example_28)
+ * [Ten replicates of DD trees (instead of an artifical tree)](https://github.com/richelbilderbeek/pirouette_example_28)
+ * [Use same mutation rate (instead of equal number of mutations)](https://github.com/richelbilderbeek/pirouette_example_18)
 
 ## Results
 
