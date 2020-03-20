@@ -1,5 +1,5 @@
-# pirouette example 28:
-# multiple DD trees for pirouette article
+# pirouette example 31:
+# multiple artificial trees for pirouette article
 #
 library(pirouette)
 library(beautier)
@@ -9,7 +9,7 @@ library(ggplot2)
 
 # Constants
 example_no <- 31
-n_phylogenies <- 10
+n_phylogenies <- 20
 folder_name <- paste0("example_", example_no)
 is_testing <- is_on_ci()
 if (is_testing) {
