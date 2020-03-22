@@ -37,6 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
 Rplots.pdf
 example_31/
 *.zip
+
