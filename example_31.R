@@ -19,9 +19,15 @@ if (is_testing) {
 # Create phylogenies
 phylogenies <- list()
 for (i in seq_len(n_phylogenies)) {
-  phylogenies[[i]] <- ape::read.tree(
-    text = "(((A:8, B:8):1, C:9):1, ((D:8, E:8):1, F:9):1);"
-  )
+  if (!is_testing) {
+    phylogenies[[i]] <- ape::read.tree(
+      text = "(((A:8, B:8):1, C:9):1, ((D:8, E:8):1, F:9):1);"
+    )
+  } else {
+    phylogenies[[i]] <- ape::read.tree(
+      text = "(((A:8, B:8):1, C:9):1);"
+    )
+  }
 }
 expect_equal(length(phylogenies), n_phylogenies)
 
